@@ -116,6 +116,7 @@
     width: 4vw;
     border-radius: 5px;
 }
+
 .designers-container .sub-title{
     color: #65605D;
     margin-bottom: 10px;
@@ -164,3 +165,23 @@
 
 /* designer container styles end*/
 
+/* designer container styles start */
+.packages-container{
+    margin-top: 100px;
+}
+
+.packages-container h1{
+    font-size: 30px;
+    color: #FE6048;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 10px solid #FE6048;
+    width: 4vw;
+    border-radius: 5px;
+}
+
+.packages-container .sub-title{
+    color: #65605D;
+    margin-bottom: 10px;
+
+}
