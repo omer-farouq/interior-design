@@ -13,6 +13,7 @@
 }
 
 .wrapper .sidenav h1{
+    
     color: white;
     margin-bottom: 60px;
 
@@ -37,6 +38,16 @@
     width: 90vw;
     margin-left: 15vw;
     padding: 30px;
+}
+.main-content .header{
+    font-size: 50px;
+    margin-bottom: 30px;
+    
+}
+.showcase-container .showcase-header{
+    font-size: 30px;
+    color: #FE6048;
+    margin-bottom: 25px;
 }
 
 .main-content .showcase-container .showcase-images-container{
@@ -67,5 +78,89 @@
 
 /* services container styles */
 .services-container{
-    color: #FE6347;
+    margin-top: 100px;
 }
+
+.services-container h1{
+    font-size: 30px;
+    color: #FE6048;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 10px solid #FE6048;
+    width: 4vw;
+    border-radius: 5px;
+}
+.services-container .sub-title{
+    color: #65605D;
+    margin-bottom: 10px;
+
+}
+.services-container .services-description{
+    color: #65605D;
+
+}
+
+
+
+/* designer container styles start */
+.designers-container{
+    margin-top: 100px;
+}
+
+.designers-container h1{
+    font-size: 30px;
+    color: #FE6048;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 10px solid #FE6048;
+    width: 4vw;
+    border-radius: 5px;
+}
+.designers-container .sub-title{
+    color: #65605D;
+    margin-bottom: 10px;
+
+}
+.designers-container .designers-description{
+    color: #65605D;
+    margin-bottom: 10px;
+}
+
+.designers-container .designers-person-title{
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+.designers-container .designers-cards{
+    display: flex;
+    gap: 15px;
+}
+
+
+.designers-container .designers-cards .card-img{
+    width: 300px;
+    height: 200px;
+    margin-bottom:10px;
+}
+.designers-container .designers-card .card .about-person{
+    background-color: #F1F1F1;
+    line-height: 30px;
+
+}
+.person-title{
+    color: #939393;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+
+}
+
+.person-description{
+    width: 250px;
+    color: #65605D;
+    
+}
+
+/* designer container styles end*/
+
