@@ -223,7 +223,7 @@
   background-color: #f1f1f1;
 }
 .basic-pro-container .box .features div {
-  width: 16vw;
+  width: 30vw;
   height: 2.5vw;
 }
 
@@ -278,6 +278,28 @@
 }
 
 /* contact Styles start */
+.contact-container {
+  margin-top: 40px;
+}
+.contact-container .contact-header {
+  position: relative;
+  font-size: 30px;
+  color: #fe6048;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  width: 4vw;
+}
+
+.contact-container .contact-header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 9px;
+  width: 43px;
+  border-radius: 8px;
+  background-color: #fe6048;
+}
 .contact-info {
   line-height: 20px;
 }
@@ -288,7 +310,19 @@
 }
 .contact-info input {
   width: 80vw;
-  height: 10vh;
+  height: 5vh;
   border: 1px solid #939393;
+}
+
+.contact-container .send-message {
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 15px;
+  background-color: #fe6347;
+  color: white;
+  fon
 }
 /* contact Styles end */
