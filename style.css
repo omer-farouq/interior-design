@@ -29,19 +29,35 @@
   line-height: 20px;
 }
 
+/* main content start */
 .main-content {
-  width: 90vw;
+  position: relative;
+  width: 80vw;
   margin-left: 15vw;
   padding: 30px;
 }
 .main-content .header {
   font-size: 50px;
   margin-bottom: 30px;
+  font-weight: 800;
 }
 .showcase-container .showcase-header {
+  position: relative;
   font-size: 30px;
+  font-weight: 600;
   color: #fe6048;
   margin-bottom: 25px;
+}
+
+.showcase-container .showcase-header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 9px;
+  width: 43px;
+  border-radius: 8px;
+  background-color: #fe6048;
 }
 
 .main-content .showcase-container .showcase-images-container {
@@ -73,15 +89,26 @@
   margin-top: 100px;
 }
 
-.services-container h1 {
+.services-container .services-header {
+  position: relative;
   font-size: 30px;
   color: #fe6048;
   margin-bottom: 25px;
   padding-bottom: 15px;
-  border-bottom: 10px solid #fe6048;
   width: 4vw;
-  border-radius: 5px;
 }
+
+.services-container .services-header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 9px;
+  width: 43px;
+  border-radius: 8px;
+  background-color: #fe6048;
+}
+
 .services-container .sub-title {
   color: #65605d;
   margin-bottom: 10px;
@@ -96,13 +123,22 @@
 }
 
 .designers-container h1 {
+  position: relative;
   font-size: 30px;
   color: #fe6048;
   margin-bottom: 25px;
   padding-bottom: 15px;
-  border-bottom: 10px solid #fe6048;
-  width: 4vw;
-  border-radius: 5px;
+}
+
+.designers-container .designers-header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 9px;
+  width: 43px;
+  border-radius: 8px;
+  background-color: #fe6048;
 }
 
 .designers-container .sub-title {
@@ -153,13 +189,21 @@
 }
 
 .packages-container h1 {
+  position: relative;
   font-size: 30px;
   color: #fe6048;
   margin-bottom: 25px;
   padding-bottom: 15px;
-  border-bottom: 10px solid #fe6048;
-  width: 4vw;
-  border-radius: 5px;
+}
+.packages-container .packages-header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 9px;
+  width: 43px;
+  border-radius: 8px;
+  background-color: #fe6048;
 }
 
 .packages-container .sub-title {
@@ -168,4 +212,22 @@
 }
 
 .basic-pro-container {
+  display: flex;
+  gap: 10px;
 }
+
+/* contact Styles start */
+.contact-info {
+  line-height: 20px;
+}
+
+.contact-info p {
+  line-height: 30px;
+  color: #0f151f;
+}
+.contact-info input {
+  width: 80vw;
+  height: 10vh;
+  border: 1px solid #939393;
+}
+/* contact Styles end */
