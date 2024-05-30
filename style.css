@@ -208,12 +208,73 @@
 
 .packages-container .sub-title {
   color: #65605d;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 .basic-pro-container {
   display: flex;
-  gap: 10px;
+  gap: 30px;
+}
+
+.basic-pro-container .box .features {
+  /* line-height: 20px; */
+  text-align: center;
+  align-content: center;
+  background-color: #f1f1f1;
+}
+.basic-pro-container .box .features div {
+  width: 16vw;
+  height: 2.5vw;
+}
+
+.basic-pro-container .box .features .basic {
+  height: 5vw;
+  background-color: #616161;
+  color: white;
+  font-size: 25px;
+}
+.basic-pro-container .box .features .pro {
+  height: 5vw;
+  background-color: #fe6347;
+  color: white;
+  font-size: 25px;
+}
+
+.basic-pro-container .box .features > * {
+  text-align: center;
+  align-content: center;
+  /* background-color: #616161; */
+  color: #260000;
+  padding: 8px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.basic-pro-container .box .features .prices {
+  height: 5vw;
+  font-size: 20px;
+}
+
+.basic-pro-container .box .features .prices .increase {
+  font-size: 30px;
+}
+
+.basic-pro-container .box .features .prices.decrase {
+  font-size: 30px;
+}
+
+.basic-pro-container .box .features .prices .price {
+  font-size: 30px;
+}
+
+.basic-pro-container .box .features button {
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  /* border-radius: 8px; */
+  background-color: white;
+}
+.basic-pro-container .box .features button:hover {
+  color: white;
+  background-color: #fe6347;
 }
 
 /* contact Styles start */
